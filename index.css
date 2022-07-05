@@ -11,6 +11,22 @@ a{
 body {
     background: linear-gradient(180deg, #151965,#32407B,#515585,#46B5D1);
     font-family: 'Roboto', sans-serif;
+    background-size: 300% 300%;
+    animation: colors 4s ease infinite;
+}
+
+
+
+@keyframes colors{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 50% 100%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
 }
 
 .container{
