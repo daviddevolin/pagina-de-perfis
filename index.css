@@ -9,7 +9,7 @@ a{
 }
 
 body {
-    background: #084188;
+    background: linear-gradient(180deg, #151965,#32407B,#515585,#46B5D1);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -18,6 +18,7 @@ body {
     width: 300px;
     margin: 0px auto;
     padding: 0px 40px;
+    height: 100vh;
 }
 
 img{
@@ -61,7 +62,7 @@ ul li a {
     margin-bottom: 16px;
     border-radius: 6px;
     border: white solid 4px;
-    background: #084188;
+    background: #151965;
 
     transition: background 400ms;
 }
